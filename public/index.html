@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JiggyConvert - Currency Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <main class="page">
+        <section class="hero">
+            <div class="card">
+                <header class="card-header">
+                    <h1>JiggyConvert</h1>
+                    <p class="header-paragraph">Fast currency conversion for web & mobile</p>
+                </header>
+                <form id="converter", class="converter", autocomplete="off">
+                    <div class="form-row">
+                        <label class="label-field" >
+                            <span class="label-text">From</span>
+                            <div class="input-row">
+                                <input id="fromAmount" type="number" step="any" min="0" placeholder="Amount" value="1" required />
+                                <select id="fromCurrency" aria-label="From Currency"></select>
+                            </div>
+                        </label>
+
+                        <button id="swapBtn" type="button" class="swap-btn" title="Swap currencies">⤫</button>
+                        
+                        <label class="label-field">
+                            <span class="label-text">To</span>
+                            <div class="input-row">
+                                <input id="toAmount" type="text" placeholder="Result" readonly />
+                                <select id="toCurrency" aria-label="To Currency"></select>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="controls">
+                        <button id="convertBtn" type="submit" class="convert-btn">Convert</button>
+                        <button id="clearBtn" type="button" class="clear-btn">Clear</button>
+                        <div class="rate" id="rateInfo" aria-live="polite"></div>
+                    </div>
+
+                    <div id="history" class="history"></div>
+                </form>
+
+                <footer class="card-footer">
+                    <small>
+                        Powered by <a href="https://exchangerate.host" target="_blank" rel="noopener">exchangerate.host</a>
+                    </small>
+                </footer>
+            </div>
+        </section>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
