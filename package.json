@@ -2,6 +2,7 @@
   "name": "jiggy_converter",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"node index.js"
   },
