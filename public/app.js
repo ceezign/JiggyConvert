@@ -25,8 +25,9 @@ function populate() {
         option1.value = cur;
         option1.textContent = cur;
         fromCurrency.appendChild(option1);
+
         const option2 = document.createElement("option");
-        option2 = cur;
+        option2.value = cur;
         option2.textContent = cur;
         toCurrency.appendChild(option2);
     });
