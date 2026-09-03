@@ -61,7 +61,7 @@ app will be available at: http://localhost:3000
 ![Jiggy Converter Demo](public/images/screenshot2.png)
 ![Jiggy Converter Demo](public/images/screenshot3.png)
 ---
-🔗 Project live on Render: [https://jiggyconvert.onrender.com/](#)
+🔗 Project live on Render: [JiggyConvert](https://jiggyconvert.onrender.com/)
 
 ## 👨‍💻 Author
 
@@ -69,12 +69,13 @@ Atunde Toheeb Ayomide (Jiggy)
 📍 Lagos, Nigeria  
 📧 [atundetoheeb1@gmail.com](mailto:atundetoheeb1@gmail.com)  
 🔗 [GitHub](https://github.com/ceezign) | [LinkedIn](https://www.linkedin.com/in/atunde-toheeb-551826313)
+💼 [Website](https://atunde-portfolio-web.vercel.app/)
 
 ---
 
-## 🪪 License
+## 📄 License
 
-This project is open source and available under the MIT License.
+MIT — free to use, modify, and share.
 ⸻
 
 📜 License
